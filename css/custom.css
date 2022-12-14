@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0 auto; padding:0; }
+*{box-sizing:border-box;}
+
+
+
+
+@media all and (max-width:992px){.nav-link{font-size: 12px}.navs{height: 300px}
+@media all and (max-width:768px){.nav-link{font-size: 10px}}}
+
+@media all and (max-width:992px){.res{font-size: 12px}}
+@media all and (max-width:768px){.res-btn{padding-bottom: 20px}}
+@media all and (max-width:992px){.con{padding-bottom: 20px}}
+@media all and (max-width:992px){.con img{width: 100%}}
+
+@media all and (max-width:992px){.example-image{width:100%; margin-bottom: 15px}}
+
+
+
+
+
+
+
+
+
+
+

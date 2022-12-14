@@ -1,0 +1,210 @@
+
+
+.nav-link{color: white;font-size: 16px; font-weight: 600}
+.nav-link:hover{color: forestgreen; transition: all 0.3s ease; padding: 10px}
+.navs{background-color: hsla(0,0%,0%,0.80); height: 86px}
+
+
+html, body {
+      position: relative;
+      height: 600px;
+		scroll-behavior:smooth;
+    }
+
+.parallax-bg{background-image: url("../images/banner3.jpg"); background-size: cover}
+    body {
+    
+     font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+    .swiper-slide {
+      font-size: 18px;
+      color:#fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      height: 100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+    .swiper-slide .title {
+      font-size: 41px;
+      font-weight: 300;
+		
+		margin-top: 100px
+    }
+    .swiper-slide .subtitle {
+      font-size: 21px;
+		margin-bottom: 20px
+		
+    }
+    .swiper-slide .text {
+      font-size: 14px;
+     padding: 0 200px;
+		
+		 
+    }
+
+@media all and (max-width:992px){
+	.swiper-slide .text{padding:0 20px}
+}
+
+
+
+
+.para-ban{background-image: url("../images/para.png") ; background-attachment: fixed; background-size: cover; padding: 200px 0 }
+.para-ban h2{text-align:  center; color: white; text-transform: capitalize; font-size: 50px; }
+.para-text{background-color: #0000008a ; padding: 20px  }
+
+
+
+ 
+
+
+/*FOOTER*/
+
+footer {
+
+  background: linear-gradient(59deg, #2B0000, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #0595AB;
+}
+
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i, 
+.social-network a.icoTwitter:hover i 
+{
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+
+.bold-h{font-weight: 700; text-decoration: line-through 1px solid black}
+.bold-hh{font-weight: 400; font-size: 16px}
+
+
+.gallery{background-color: rgba(33,33,33,1.00); align-items: center; padding-top: 50px}
+.gallery a{cursor: zoom-in}
+
+
+
